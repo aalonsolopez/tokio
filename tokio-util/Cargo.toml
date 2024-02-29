@@ -38,7 +38,7 @@ rt = ["tokio_wasi/rt", "tokio_wasi/sync", "futures-util", "hashbrown"]
 __docs_rs = ["futures-util"]
 
 [dependencies]
-tokio_wasi = { path = "../tokio", version = "1", features = ["sync"] }
+tokio_wasi = { path = "../tokio", version = "1.28.2", features = ["sync"] }
 bytes = "1.0.0"
 futures-core = "0.3.0"
 futures-sink = "0.3.0"
